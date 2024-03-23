@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "langfuse_web"
-version = "0.0.2"
+version = "0.0.3"
 description = "Support for Langfuse operations not handed in the API library"
 readme = "README.md"
 keywords = ["langfuse", "prompts"]
@@ -17,7 +17,7 @@ requests = "^2.31.0"
 
 [project]
 name = "langfuse_web"
-version = "0.0.2"
+version = "0.0.3"
 description = "Support for Langfuse operations not handed in the API library"
 readme = "README.md"
 
