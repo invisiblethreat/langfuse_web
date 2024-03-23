@@ -127,5 +127,6 @@ def delete_prompt(name: str):
         except Exception as e:
             log.warning(f"something went wrong: {e}")
 
+
 if __name__ == "__main__":
     print(json.dumps(get_all_prompts))
