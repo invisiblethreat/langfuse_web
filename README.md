@@ -8,3 +8,16 @@ the web interface pull all prompts and delete prompts.
 
 - `get_all_prompts`
 - `delete_prompt`
+
+### Setup
+
+The following environment variables are expected to exist:
+```
+LANGFUSE_HOST
+LANGFUSE_PROJECT
+LANGFUSE_EMAIL
+LANGFUSE_PASSWORD
+```
+
+`pip3 install python-dotenv` and employing an `.env` file is a method frequently
+employed to manage this requirement
